@@ -14,10 +14,13 @@
 
 <body>
     <header id="main-header">
-        <h1 id="site-title">Best News Ever!</h1>
+        <h1 id="site-title"><marquee direction = "right">Best News Ever!</marquee></h1>
     </header>
-
-    <input type="text" placeholder="Search" class="my-input">
+    
+    <div id="search">
+        <input id="search-bar" type="text" placeholder="Search" class="my-input">
+        <button id="search-button">Search</button>
+    </div>
 
     <section id="top-stories">
         <article>
@@ -42,50 +45,53 @@
                     href="#">Read more...</a></p>
         </article>
         <div class="my-text">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vehicula massa vel tellus pulvinar, eu
-                congue nulla placerat. Sed eleifend arcu eget orci fringilla rhoncus. Mauris lorem nulla, interdum vel est
-                quis, gravida vestibulum justo. Vestibulum eleifend scelerisque dignissim. Aenean elit massa, vulputate eu
-                tellus ut, auctor tincidunt purus. Suspendisse sollicitudin, leo eu varius venenatis, lectus turpis suscipit
-                ipsum, nec sollicitudin orci neque gravida neque. Cras nisl nulla, hendrerit eu aliquet eget, fringilla non
-                tellus. Mauris molestie erat ac felis pretium tincidunt.
-            </p>
-            <p>
-                Nulla rhoncus consequat massa sed interdum. Aliquam viverra nunc a diam suscipit auctor. In viverra dolor
-                sed vestibulum ultrices. Praesent hendrerit ligula arcu, nec feugiat metus commodo et. Integer volutpat
-                ullamcorper cursus. Proin convallis tellus a erat commodo consectetur. Ut non magna a mi tempor ullamcorper
-                sed at turpis. Vestibulum enim dui, hendrerit vel luctus ac, pretium in purus. In vitae metus nisi. Etiam
-                pellentesque, quam ac eleifend dignissim, augue erat elementum justo, in sagittis ligula elit sed dolor.
-                Curabitur nulla ante, elementum vel urna ac, scelerisque pharetra dui. Duis quis porttitor lectus. Aliquam
-                vestibulum justo et odio malesuada mattis. Suspendisse potenti. Etiam porttitor nulla at velit vulputate,
-                eget ornare libero fermentum.
-            </p>
-            <p>
-                Etiam accumsan arcu vel nisl tincidunt hendrerit. Sed velit nisl, auctor a purus sed, dictum vulputate
-                dolor. Quisque nec velit fringilla, consequat diam id, aliquam mi. Cras rutrum erat ut tellus sagittis, et
-                efficitur nibh tempus. Mauris id magna consectetur, venenatis leo et, fringilla magna. Fusce gravida ante
-                quis augue blandit interdum. Aliquam mollis placerat massa vel aliquam. Nam euismod pulvinar ornare. Nunc
-                quis interdum tellus. Aenean eu aliquet sapien. Nam pretium eros sed tellus condimentum, in convallis est
-                semper.
-            </p>
-            <p>
-                Donec aliquam et sem sed semper. Donec sit amet velit dolor. Nulla volutpat, lorem at aliquam sagittis,
-                lorem diam laoreet ex, vel imperdiet mi lectus vestibulum felis. Donec ac mauris placerat, auctor nulla in,
-                bibendum enim. Sed pulvinar non ipsum ut hendrerit. Fusce pharetra neque purus, ut ultrices ligula laoreet
-                at. Donec at metus ornare, ultricies nisl vel, suscipit magna. Phasellus mollis purus vel velit sodales
-                aliquet. Maecenas ullamcorper, tortor vitae interdum suscipit, lorem felis dapibus metus, vitae fringilla
-                urna elit eget neque. Mauris condimentum massa vel congue vulputate.
-            </p>
-            <p>
-                Aliquam erat volutpat. Mauris nibh quam, accumsan sit amet felis at, fermentum sollicitudin neque. Nam
-                porta, dui non euismod maximus, neque ipsum egestas sem, vel laoreet mauris nunc quis est. Nulla tincidunt,
-                nibh sed elementum aliquam, eros nisi fermentum metus, vel iaculis nibh felis vitae mi. Ut quis ex nisl.
-                Nulla scelerisque est sed dictum rhoncus. Integer cursus enim ut arcu tincidunt, quis hendrerit nibh semper.
-                Maecenas quis varius eros, quis accumsan libero. Mauris fermentum at ligula id mattis. Cras id nibh id massa
-                porta gravida et sed magna. Aliquam quis magna turpis.
-            </p>
+            <marquee height="200px" direction="up">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vehicula massa vel tellus pulvinar, eu
+                    congue nulla placerat. Sed eleifend arcu eget orci fringilla rhoncus. Mauris lorem nulla, interdum vel est
+                    quis, gravida vestibulum justo. Vestibulum eleifend scelerisque dignissim. Aenean elit massa, vulputate eu
+                    tellus ut, auctor tincidunt purus. Suspendisse sollicitudin, leo eu varius venenatis, lectus turpis suscipit
+                    ipsum, nec sollicitudin orci neque gravida neque. Cras nisl nulla, hendrerit eu aliquet eget, fringilla non
+                    tellus. Mauris molestie erat ac felis pretium tincidunt.
+                </p>
+                <p>
+                    Nulla rhoncus consequat massa sed interdum. Aliquam viverra nunc a diam suscipit auctor. In viverra dolor
+                    sed vestibulum ultrices. Praesent hendrerit ligula arcu, nec feugiat metus commodo et. Integer volutpat
+                    ullamcorper cursus. Proin convallis tellus a erat commodo consectetur. Ut non magna a mi tempor ullamcorper
+                    sed at turpis. Vestibulum enim dui, hendrerit vel luctus ac, pretium in purus. In vitae metus nisi. Etiam
+                    pellentesque, quam ac eleifend dignissim, augue erat elementum justo, in sagittis ligula elit sed dolor.
+                    Curabitur nulla ante, elementum vel urna ac, scelerisque pharetra dui. Duis quis porttitor lectus. Aliquam
+                    vestibulum justo et odio malesuada mattis. Suspendisse potenti. Etiam porttitor nulla at velit vulputate,
+                    eget ornare libero fermentum.
+                </p>
+                <p>
+                    Etiam accumsan arcu vel nisl tincidunt hendrerit. Sed velit nisl, auctor a purus sed, dictum vulputate
+                    dolor. Quisque nec velit fringilla, consequat diam id, aliquam mi. Cras rutrum erat ut tellus sagittis, et
+                    efficitur nibh tempus. Mauris id magna consectetur, venenatis leo et, fringilla magna. Fusce gravida ante
+                    quis augue blandit interdum. Aliquam mollis placerat massa vel aliquam. Nam euismod pulvinar ornare. Nunc
+                    quis interdum tellus. Aenean eu aliquet sapien. Nam pretium eros sed tellus condimentum, in convallis est
+                    semper.
+                </p>
+                <p>
+                    Donec aliquam et sem sed semper. Donec sit amet velit dolor. Nulla volutpat, lorem at aliquam sagittis,
+                    lorem diam laoreet ex, vel imperdiet mi lectus vestibulum felis. Donec ac mauris placerat, auctor nulla in,
+                    bibendum enim. Sed pulvinar non ipsum ut hendrerit. Fusce pharetra neque purus, ut ultrices ligula laoreet
+                    at. Donec at metus ornare, ultricies nisl vel, suscipit magna. Phasellus mollis purus vel velit sodales
+                    aliquet. Maecenas ullamcorper, tortor vitae interdum suscipit, lorem felis dapibus metus, vitae fringilla
+                    urna elit eget neque. Mauris condimentum massa vel congue vulputate.
+                </p>
+                <p>
+                    Aliquam erat volutpat. Mauris nibh quam, accumsan sit amet felis at, fermentum sollicitudin neque. Nam
+                    porta, dui non euismod maximus, neque ipsum egestas sem, vel laoreet mauris nunc quis est. Nulla tincidunt,
+                    nibh sed elementum aliquam, eros nisi fermentum metus, vel iaculis nibh felis vitae mi. Ut quis ex nisl.
+                    Nulla scelerisque est sed dictum rhoncus. Integer cursus enim ut arcu tincidunt, quis hendrerit nibh semper.
+                    Maecenas quis varius eros, quis accumsan libero. Mauris fermentum at ligula id mattis. Cras id nibh id massa
+                    porta gravida et sed magna. Aliquam quis magna turpis.
+                </p>
+            </marquee>
         </div>
     </section>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
